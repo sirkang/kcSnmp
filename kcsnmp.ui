@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kcSnmp</class>
+ <widget class="QWidget" name="kcSnmp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>kcSnmp</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="A">
+     <item row="3" column="0">
+      <layout class="QGridLayout" name="A4" columnstretch="10,0">
+       <item row="0" column="0">
+        <widget class="QComboBox" name="comboBox_Snmp">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>28</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_Snmp_Enter">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>12</pointsize>
+           <weight>9</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>执行命令</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <layout class="QGridLayout" name="A3">
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="textEdit_Snmp_INFO"/>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer_Snmp">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="labe_Snmp_IP">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>设备IP：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Snmp_IP">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>12</pointsize>
+           <weight>9</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>172.16.3.235</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Snmp_PING">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>网络测试</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Snmp_CLEAR">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>清除信息</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_Snmp_1">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Snmp_SNMP">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>SNMP测试</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_Snmp">
+         <property name="text">
+          <string>Debug</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_Snmp_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_Snmp_REBOOT">
+         <property name="styleSheet">
+          <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;</string>
+         </property>
+         <property name="text">
+          <string>重启设备</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_Snmp_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="A1">
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer_Snmp_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_Snmp_Machine">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <spacer name="horizontalSpacer_Snmp_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

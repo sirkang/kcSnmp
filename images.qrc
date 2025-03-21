@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>JL206-A.png</file>
+        <file>JL206-B.png</file>
+        <file>SnmpGet.exe</file>
+        <file>JL206-C.png</file>
+    </qresource>
+</RCC>
